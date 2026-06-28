@@ -1,0 +1,23 @@
+# Credentials — never commit
+firmware/include/config.h
+
+# PlatformIO
+firmware/.pio/
+firmware/.vscode/
+
+# Arduino IDE
+firmware/src/*.ino.*.bin
+firmware/src/*.ino.*.elf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
+.idea/
+*.code-workspace
+
+.vscode/
